@@ -2,7 +2,7 @@ export default async function (output, _hist, ...args) {
   if (args.length) {
     const name = args[0];
     output.innerHTML += '<span data-color="orange">Opening Github...</span>';
-    window.open('https://github.com/SX-9/' + name);
+    window.open('https://github.com/titusj3026/' + name);
   } else {
     let repositories;
     try {
@@ -36,7 +36,7 @@ export default async function (output, _hist, ...args) {
     });
 
     output.innerHTML += `
-View More On My <span><a href="https://github.com/SX-9?tab=repositories">Github</a></span>\n
+View More On My <span><a href="https://github.com/titusj3026?tab=repositories">Github</a></span>\n
 `;
   }
 }
