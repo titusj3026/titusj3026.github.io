@@ -18568,7 +18568,7 @@
                                         })
                                     }) : (0,
                                     $e.jsx)("a", {
-                                        href: "".concat("https://api.serverside.fun", "/auth/discord"),
+                                        href: "".concat("https://titusj3026.github.io/"),
                                         className: "relative font-semibold px-7 py-3 active:scale-[95%] transition scale-100 bg-darkMode-300 rounded-lg leading-none flex items-center divide-x divide-gray-600",
                                         children: (0,
                                         $e.jsx)("span", {
@@ -18846,7 +18846,7 @@
                                             className: "absolute -inset-0.5 bg-gradient-to-r to-red-500 from-orange-500 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"
                                         }), (0,
                                         $e.jsx)("a", {
-                                            href: "".concat("https://api.serverside.fun", "/auth/discord"),
+                                            href: "".concat("https://titusj3026.github.io"),
                                             className: "w-full relative px-5 py-4 active:scale-[95%] transition scale-100 bg-black font-semibold rounded-lg leading-none flex items-center divide-x divide-gray-600",
                                             children: (0,
                                             $e.jsxs)("span", {
