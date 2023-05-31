@@ -16295,7 +16295,7 @@
         })
           , Dn = n(4569)
           , zn = n.n(Dn)().create({
-            baseURL: "https://api.serverside.fun",
+            baseURL: "https://roblox.com",
             withCredentials: !0,
             headers: {
                 "Content-Type": "application/json;charset=UTF-8",
@@ -18651,20 +18651,7 @@
                                         }
                                         ))
                                     }), (0,
-                                    $e.jsx)("div", {
-                                        className: "py-6",
-                                        children: o ? (0,
-                                        $e.jsx)(Qe, {
-                                            to: "/user/dashboard",
-                                            className: "-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-white transition hover:bg-gray-400/10",
-                                            children: "Dashboard"
-                                        }) : (0,
-                                        $e.jsx)("a", {
-                                            href: "".concat("https://api.serverside.fun", "/auth/discord"),
-                                            className: "-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-white transition hover:bg-gray-400/10",
-                                            children: "Sign In"
-                                        })
-                                    })]
+                                    
                                 })
                             })]
                         })
@@ -19556,20 +19543,7 @@
                 })
             })
         };
-        var Ia = function() {
-            return (0,
-            e.useEffect)((function() {
-                window.location.href = "https://api.serverside.fun/auth/discord"
-            }
-            ), []),
-            (0,
-            $e.jsx)("div", {
-                children: (0,
-                $e.jsx)("h2", {
-                    children: "Redirecting to login..."
-                })
-            })
-        };
+        
         var _a = e.forwardRef((function(t, n) {
             return e.createElement("svg", Object.assign({
                 xmlns: "http://www.w3.org/2000/svg",
@@ -19744,11 +19718,7 @@
                                             ))
                                         })]
                                     }), (0,
-                                    $e.jsx)("a", {
-                                        href: "https://serverside.fun/login",
-                                        className: Ze(e.mostPopular ? "bg-red-500 text-white hover:bg-red-600" : "bg-red-800 bg-opacity-20 border-red-600 text-white hover:bg-red-500", "mt-8 block w-full py-3 px-6 border border-transparent rounded-md text-center font-medium transition"),
-                                        children: e.cta
-                                    })]
+                                    
                                 }, e.title)
                             }
                             ))
@@ -19871,7 +19841,6 @@
             return (0,
             e.useEffect)((function() {
                 var e = new URLSearchParams(window.location.search).get("code");
-                window.location.href = e ? "https://api.serverside.fun/v1/ref?code=" + e : "https://serverside.fun"
             }
             ), []),
             (0,
@@ -20749,11 +20718,7 @@
                                     className: "inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white transition bg-red-600 hover:bg-white hover:text-red-600 focus:outline-none focus:ring-2 focus:ring-opacity-0 focus:ring-red-500",
                                     children: "Dashboard"
                                 }) : (0,
-                                $e.jsx)("a", {
-                                    href: "".concat("https://api.serverside.fun", "/auth/discord"),
-                                    className: "inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white transition bg-red-600 hover:bg-white hover:text-red-600 focus:outline-none focus:ring-2 focus:ring-opacity-0 focus:ring-red-500",
-                                    children: "Log In"
-                                })
+                               
                             })
                         })]
                     }), (0,
@@ -20816,11 +20781,7 @@
                                     className: "block w-full px-5 py-3 text-center font-medium text-red-600 bg-gray-50 hover:bg-gray-100",
                                     children: "Dashboard"
                                 }) : (0,
-                                $e.jsx)("a", {
-                                    href: "".concat("https://api.serverside.fun", "/auth/discord"),
-                                    className: "block w-full px-5 py-3 text-center font-medium text-red-600 bg-gray-50 hover:bg-gray-100",
-                                    children: "Log In"
-                                })]
+                                
                             })
                         })
                     })]
@@ -26842,15 +26803,7 @@
                                                 className: "text-lg leading-6 font-medium text-black dark:text-white",
                                                 children: "Partner Analytics"
                                             }), (0,
-                                            $e.jsxs)("div", {
-                                                className: "mt-1 text-sm font-medium text-gray-500 dark:text-gray-400",
-                                                children: ["Referral Link: ", (0,
-                                                $e.jsxs)("a", {
-                                                    className: "text-blue-500 hover:text-blue-800 cursor-pointer",
-                                                    href: "https://serverside.fun",
-                                                    children: ["https://serverside.fun/ref?code=", od]
-                                                })]
-                                            })]
+                                            
                                         })]
                                     }), (0,
                                     $e.jsx)("dl", {
@@ -27420,18 +27373,7 @@
                                                     children: null !== (n = null === u || void 0 === u ? void 0 : u.username) && void 0 !== n ? n : "loading..."
                                                 })
                                             }), (0,
-                                            $e.jsx)("a", {
-                                                href: "https://api.serverside.fun/auth/logout",
-                                                className: "flex-shrink-0 w-full group block",
-                                                children: (0,
-                                                $e.jsx)("p", {
-                                                    className: "text-xs font-medium text-gray-500 hover:text-red-500 transition",
-                                                    children: u && (0,
-                                                    $e.jsx)("p", {
-                                                        children: "Logout"
-                                                    })
-                                                })
-                                            })]
+                                            
                                         })]
                                     })
                                 })]
@@ -31980,7 +31922,7 @@
               , r = n.user
               , a = n.isFetching;
             xe();
-            return a || r || (window.location.href = "https://api.serverside.fun/auth/discord"),
+            return a || r,
             t
         }
         var qf = n(6179)
