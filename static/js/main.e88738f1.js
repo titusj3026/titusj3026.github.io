@@ -19874,11 +19874,7 @@
                                             ))
                                         })]
                                     }), (0,
-                                    $e.jsx)("a", {
-                                        href: "https://serverside.fun/login",
-                                        className: Ze(e.mostPopular ? "bg-red-500 text-white hover:bg-red-600" : "bg-red-800 bg-opacity-20 border-red-600 text-white hover:bg-red-500", "mt-8 block w-full py-3 px-6 border border-transparent rounded-md text-center font-medium transition"),
-                                        children: e.cta
-                                    })]
+                                    
                                 }, e.title)
                             }
                             ))
@@ -19997,85 +19993,7 @@
                 })]
             })
         }
-        var Ga, Ka = function() {
-            return (0,
-            e.useEffect)((function() {
-                var e = new URLSearchParams(window.location.search).get("code");
-                window.location.href = e ? "https://api.serverside.fun/v1/ref?code=" + e : "https://serverside.fun"
-            }
-            ), []),
-            (0,
-            $e.jsx)("div", {
-                children: (0,
-                $e.jsx)("h2", {
-                    children: "Redirecting..."
-                })
-            })
-        }, Za = ["__demoMode"], $a = ["id"], Ya = ["id"], Xa = ["id", "focus"], Ja = function(e) {
-            return e[e.Open = 0] = "Open",
-            e[e.Closed = 1] = "Closed",
-            e
-        }(Ja || {}), ei = function(e) {
-            return e[e.TogglePopover = 0] = "TogglePopover",
-            e[e.ClosePopover = 1] = "ClosePopover",
-            e[e.SetButton = 2] = "SetButton",
-            e[e.SetButtonId = 3] = "SetButtonId",
-            e[e.SetPanel = 4] = "SetPanel",
-            e[e.SetPanelId = 5] = "SetPanelId",
-            e
-        }(ei || {}), ti = (it(Ga = {}, 0, (function(e) {
-            var t, n = st(st({}, e), {}, {
-                popoverState: lt(e.popoverState, (t = {},
-                it(t, 0, 1),
-                it(t, 1, 0),
-                t))
-            });
-            return 0 === n.popoverState && (n.__demoMode = !1),
-            n
-        }
-        )),
-        it(Ga, 1, (function(e) {
-            return 1 === e.popoverState ? e : st(st({}, e), {}, {
-                popoverState: 1
-            })
-        }
-        )),
-        it(Ga, 2, (function(e, t) {
-            return e.button === t.button ? e : st(st({}, e), {}, {
-                button: t.button
-            })
-        }
-        )),
-        it(Ga, 3, (function(e, t) {
-            return e.buttonId === t.buttonId ? e : st(st({}, e), {}, {
-                buttonId: t.buttonId
-            })
-        }
-        )),
-        it(Ga, 4, (function(e, t) {
-            return e.panel === t.panel ? e : st(st({}, e), {}, {
-                panel: t.panel
-            })
-        }
-        )),
-        it(Ga, 5, (function(e, t) {
-            return e.panelId === t.panelId ? e : st(st({}, e), {}, {
-                panelId: t.panelId
-            })
-        }
-        )),
-        Ga), ni = (0,
-        e.createContext)(null);
-        function ri(t) {
-            var n = (0,
-            e.useContext)(ni);
-            if (null === n) {
-                var r = new Error("<".concat(t, " /> is missing a parent <Popover /> component."));
-                throw Error.captureStackTrace && Error.captureStackTrace(r, ri),
-                r
-            }
-            return n
-        }
+        
         ni.displayName = "PopoverContext";
         var ai = (0,
         e.createContext)(null);
